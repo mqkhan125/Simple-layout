@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 40px;
+}
+
+header nav ul {
+    display: flex;
+    line-height: 10px;
+    list-style: none;
+    padding: 0px;
+}
+
+header nav ul li {
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: brown;
+    cursor: pointer;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro{
+    background-image: url("images/pink.png");
+    background-repeat: round;
+    object-fit: cover;
+
+}
+#about{
+    background-color: rgb(245, 160, 56);
+}
+#contact{
+    background-color: rgb(219, 165, 85);
+}
+
+.container img {
+    height: 300px;
+    border-radius: 50%;
+}
+
+.container h2 {
+    padding: 30px;
+    margin-top: 2%;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container p, ul{
+    list-style: none;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+footer{
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
